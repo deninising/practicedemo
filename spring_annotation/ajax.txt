@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ajax</title>   
+</head>
+<body>    
+ <div>
+ <input type="button"  value="ajax请求" onclick="doajax()"></input>
+ </div>
+
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>  
+<script>    
+
+function doajax (){
+alert("aa");
+  $.ajax({    
+            //请求方式    
+            type:"GET",    
+            //文件位置    
+            url:"data.json",  
+            //返回数据格式为json,也可以是其他格式如    
+            dataType: "json",    
+            //请求成功后要执行的函数，拼接html    
+            success: function(data){    
+                var str="<ul>";    
+                $.each(data,function(i,n){    
+                    str+="<li>"+"ID："+n.id+"</li>";  
+                    str+="<li>"+"标题："+n.title+"</li>";  
+                    str+="<li>"+"地址："+n.url+"</li>";  
+                });    
+                str+="</ul>";    
+                $("div").append(str);    
+            }    
+        });    
+};
+</script>    
+</body>    
