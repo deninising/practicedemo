@@ -41,7 +41,7 @@ public class MysqlGenerator {
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
-        gc.setOutputDir(projectPath + "/src/main/java");
+        gc.setOutputDir(projectPath + "/pstmmybatisplus/src/main/java");
         gc.setAuthor("dennis");
         gc.setOpen(false);
         gc.setBaseResultMap(true); // XML ResultMap
