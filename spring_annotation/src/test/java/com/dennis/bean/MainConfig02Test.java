@@ -7,7 +7,7 @@ import org.springframework.beans.factory.FactoryBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class MainConfigTest02 {
+public class MainConfig02Test {
     private ApplicationContext applicationContext;
 
     @Before
