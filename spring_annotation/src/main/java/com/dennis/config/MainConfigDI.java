@@ -37,9 +37,24 @@ import org.springframework.context.annotation.Primary;
  *   @Autowired :Spring的定义
  *   @Inject(JSR330) :JAVA规范
  *   @Resource(JSR250) :JAVA规范
+ *
+ *  C:
+ *     @Autowired ：标在set方法上、标在构造器上、标在参数前、成员属性上都是从ioc容器中按类型获取相应的组件进行赋值
+ *     1、【标在方法上】:@Bean+方法参数，参数会从容器中去自动获取对应组件实例并进行赋值注入（最常用）也可以默认不写@Aotuwired
+ *     2、标在构造器上：如果组件类只有一个有参构造器，那么构造器上的@Aotuwired注解可以省略
+ *     3、标在参数前
+ *     4、成员属性上
+ *
+ *  D：
+ *     自定义组件想要使用Spring容器底层的一些组件（ApplicationContext,BeanFactory,XXX）
+ *     只需要自定义组件实实现 XXXAware接口并实现setXXX接口，那么在容器中创建该组件实例的时候
+ *     回自动回调setXXX方法，完成组件注入到自定义Bean中去
+ *     XXXAwire:功能使用XXXAwireProcessor 后置处理器在自定义初见初始化前后来回调实现的
+ *     例如：ApplicationContextAwire====》ApplicationContextAwireProcessor
  */
 @Configuration
-@ComponentScan({"com.dennis.controller","com.dennis.service","com.dennis.dao"})
+@ComponentScan({"com.dennis.controller","com.dennis.service"
+        ,"com.dennis.dao","com.dennis.bean"})
 public class MainConfigDI {
 
     @Bean(value = "bookDao02")
