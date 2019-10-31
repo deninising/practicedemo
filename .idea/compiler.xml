@@ -18,6 +18,7 @@
       <module name="jwt_token (1)" target="11" />
       <module name="pstmmybatisplus" target="11" />
       <module name="spring_annotation" target="11" />
+      <module name="spring_aop" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
