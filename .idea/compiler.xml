@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="io" />
         <module name="jjwt" />
         <module name="jwt_token" />
         <module name="pstmmybatisplus" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="io" target="11" />
       <module name="jjwt" target="11" />
       <module name="jwt_token" target="11" />
       <module name="jwt_token (1)" target="11" />
