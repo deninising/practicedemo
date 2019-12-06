@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jjwt/jjwt.iml" filepath="$PROJECT_DIR$/jjwt/jjwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt_token/jwt_token.iml" filepath="$PROJECT_DIR$/jwt_token/jwt_token.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongodb/mongodb.iml" filepath="$PROJECT_DIR$/mongodb/mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/practicedemo.iml" filepath="$PROJECT_DIR$/.idea/practicedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pstmmybatisplus/pstmmybatisplus.iml" filepath="$PROJECT_DIR$/pstmmybatisplus/pstmmybatisplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-aop-encrypt-transfer/spring-aop-encrypt-transfer.iml" filepath="$PROJECT_DIR$/spring-aop-encrypt-transfer/spring-aop-encrypt-transfer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_annotation/spring_annotation.iml" filepath="$PROJECT_DIR$/spring_annotation/spring_annotation.iml" />
     </modules>
   </component>

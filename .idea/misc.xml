@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/spring_annotation/pom.xml" />
         <option value="$PROJECT_DIR$/jwt_token/pom.xml" />
         <option value="$PROJECT_DIR$/jjwt/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-aop-encrypt-transfer/pom.xml" />
+        <option value="$PROJECT_DIR$/mongodb/pom.xml" />
         <option value="$PROJECT_DIR$/pstmmybatisplus/pom.xml" />
       </list>
     </option>

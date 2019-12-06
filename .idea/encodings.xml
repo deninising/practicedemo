@@ -2,8 +2,8 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/jwt_token" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jwt_token_decode" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pstmmybatisplus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-aop-encrypt-transfer" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -18,7 +18,8 @@ public class MainConfigAopTest {
     @Test
     public void tesMathCalculator() {
         MathCalculator calculator = applicationContext.getBean(MathCalculator.class);
-        calculator.div(5, 0);
+        Integer div = calculator.div(5, 1);
+        System.out.println(div);
         applicationContext.close();
     }
 }

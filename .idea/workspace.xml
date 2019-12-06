@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0047a771-3df0-4470-9dc8-6e2b34b8cced" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/LogAspects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/MathCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfigAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigAopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/main/java/com/dennis/demo01/CreateClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/main/java/com/dennis/demo01/InsertClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/main/java/com/dennis/demo01/QueryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/src/main/java/com/dennis/demo01/UpdataClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/generated/DataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/generated/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/generated/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/thrift/client/ThriftClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/thrift/impl/PersonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/thrift/server/ThriftServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/HttpClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_annotation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/LogAspects.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/LogAspects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Blue.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Blue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigAopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigAopTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/spring_annotation/target/" />
-    <ignored path="$PROJECT_DIR$/jwt_token/target/" />
-    <ignored path="$PROJECT_DIR$/jwt_token_decode/target/" />
-    <ignored path="$PROJECT_DIR$/jjwt/target/" />
-    <ignored path="$PROJECT_DIR$/pstmmybatisplus/target/" />
-    <ignored path="$PROJECT_DIR$/spring_aop/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,178 +42,8 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="494620207">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="btl" value="2" />
-          <entry key="ftl" value="1" />
-          <entry key="java" value="101" />
-          <entry key="pem" value="11" />
-          <entry key="pom" value="1" />
-          <entry key="pub" value="2" />
-          <entry key="xml" value="14" />
-          <entry key="yml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="FTL" value="1" />
-          <entry key="JAVA" value="101" />
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="XML" value="15" />
-          <entry key="YAML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="17" />
-          <entry key="java" value="12482" />
-          <entry key="pem" value="5" />
-          <entry key="txt" value="114" />
-          <entry key="xml" value="269" />
-          <entry key="yml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="12482" />
-          <entry key="PLAIN_TEXT" value="136" />
-          <entry key="XML" value="269" />
-          <entry key="YAML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="practicedemo" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Color.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#1269#1270#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfigDI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-500">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_annotation/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfigAop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigAopTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/MathCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/LogAspects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.3/aspectjweaver-1.9.3-sources.jar!/org/aspectj/lang/JoinPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.pom">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigDITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -218,96 +53,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>readResourceKey</find>
-      <find>applybeanprop</find>
-      <find>invokeinitmethod</find>
-      <find>initializeBean</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="D:/GitRepository/spring-framework" value="PREVIEW" />
-        <entry key="D:/GitRepository/spring-framework-5.0.x" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/condition/WindowsCondition.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Yellow.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Blue.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Red.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/importselector.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/importselector/MyImportSelector.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/importBeanDefinitionRegistrar/MyImportBeanDefinitionRegistrar.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/beanFactory/ColorFactoryBean.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfig02.java" />
-        <option value="$PROJECT_DIR$/jwt_token/src/main/java/com/dennis/jwtdemo.java" />
-        <option value="$PROJECT_DIR$/jwt_token/src/main/java/com/dennis/tokentool/JwtToken.java" />
-        <option value="$PROJECT_DIR$/jwt_token/pom.xml" />
-        <option value="$PROJECT_DIR$/jwt_token/src/main/resources/static/rsa_private_key.pem" />
-        <option value="$PROJECT_DIR$/jwt_token/src/main/resources/static/rsa_public_key.pem" />
-        <option value="$PROJECT_DIR$/jwt_token/src/main/resources/static/rsa_private_key_pkcs8.pem" />
-        <option value="$PROJECT_DIR$/jwt_token/src/main/resources/static/rsa_public_key_2048.pub" />
-        <option value="$PROJECT_DIR$/jwt_token_decode/pom.xml" />
-        <option value="$PROJECT_DIR$/jwt_token_decode/src/test/java/com/dennis/tokentool/JwtTokenToolTest.java" />
-        <option value="$PROJECT_DIR$/jwt_token_decode/src/main/java/com/dennis/tokentool/JwtTokenTool.java" />
-        <option value="$PROJECT_DIR$/jwt_token/src/test/java/com/dennis/tokentool/JwtTokenToolTest.java" />
-        <option value="$PROJECT_DIR$/jwt_token/src/main/java/com/dennis/tokentool/JwtTokenTool.java" />
-        <option value="$PROJECT_DIR$/jjwt/pom.xml" />
-        <option value="$PROJECT_DIR$/jjwt/src/main/resources/static/rsa_public_key_2048.pub" />
-        <option value="$PROJECT_DIR$/jjwt/src/main/resources/static/rsa_private_key_pkcs8.pem" />
-        <option value="$PROJECT_DIR$/jjwt/src/test/java/com/dennis/JwtToolTest.java" />
-        <option value="$PROJECT_DIR$/jjwt/src/main/resources/static/rsa_private_key.pem" />
-        <option value="$PROJECT_DIR$/jjwt/src/main/resources/static/rsa_public_key.pem" />
-        <option value="$PROJECT_DIR$/jjwt/src/main/java/com/dennis/JwtTool.java" />
-        <option value="$PROJECT_DIR$/pstmmybatisplus/pom.xml" />
-        <option value="$PROJECT_DIR$/pstmmybatisplus/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pstmmybatisplus/src/main/java/com/dennis/pstmmybatisplus/generator/MysqlGenerator.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigTest02.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigOfLifeCycleTest.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Dog.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfigOfLifeCycle.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Cat.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/controller/BookController.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/service/BookService.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/dao/BookDao.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Car.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Boss.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Color.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigDITest.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfigDI.java" />
-        <option value="$PROJECT_DIR$/spring_aop/pom.xml" />
-        <option value="$PROJECT_DIR$/spring_annotation/pom.xml" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/MathCaculator.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/MathCalculator.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigAopTest.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/LogAspects.java" />
-        <option value="$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfigAop.java" />
-      </list>
-    </option>
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/develop/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\develop\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="D:/Devlop/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\Devlop\apache-maven-3.6.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -317,17 +73,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="775" />
-  </component>
+  <component name="ProjectId" id="1TGcrp2pNwL9ErsBH0wvytacled" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -354,119 +100,25 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dennis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dennis" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dennis" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572537520693" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jwt_token_decode/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pstmmybatisplus/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -480,10 +132,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\mydemo\practicedemo\pstmmybatisplus\src\main\resources" />
+      <recent name="E:\Code\mydemo\practicedemo\pstmmybatisplus\src\main\java\com\dennis\pstmmybatisplus" />
+      <recent name="E:\Code\mydemo\practicedemo\spring_annotation\src\main\java\com\dennis" />
       <recent name="D:\Github\practicedemo\pstmmybatisplus\src\main\resources\templates" />
       <recent name="D:\Github\practicedemo\jjwt\src\main\resources" />
-      <recent name="D:\Github\practicedemo" />
-      <recent name="D:\Github\practicedemo\jwt_token\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -498,8 +151,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainConfigAopTest.tesMathCalculator">
-    <configuration name="MainConfigAopTest.tesMathCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MysqlGenerator (1)">
+    <configuration name="Blue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dennis.bean.Blue" />
       <module name="spring_annotation" />
       <extension name="coverage">
         <pattern>
@@ -507,74 +161,58 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dennis.bean" />
-      <option name="MAIN_CLASS_NAME" value="com.dennis.bean.MainConfigAopTest" />
-      <option name="METHOD_NAME" value="tesMathCalculator" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainConfigDITest.testAutowire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_annotation" />
+    <configuration name="MysqlGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dennis.generator.MysqlGenerator" />
+      <module name="pstmmybatisplus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dennis.bean.*" />
+          <option name="PATTERN" value="com.dennis.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dennis.bean" />
-      <option name="MAIN_CLASS_NAME" value="com.dennis.bean.MainConfigDITest" />
-      <option name="METHOD_NAME" value="testAutowire" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainConfigDITest.testAutowired01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_annotation" />
+    <configuration name="MysqlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dennis.pstmmybatisplus.generator.MysqlGenerator" />
+      <module name="pstmmybatisplus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dennis.bean.*" />
+          <option name="PATTERN" value="com.dennis.pstmmybatisplus.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dennis.bean" />
-      <option name="MAIN_CLASS_NAME" value="com.dennis.bean.MainConfigDITest" />
-      <option name="METHOD_NAME" value="testAutowired01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainConfigDITest.testXXXAwire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_annotation" />
+    <configuration name="UpdataClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dennis.demo01.UpdataClient" />
+      <module name="mongodb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dennis.bean.*" />
+          <option name="PATTERN" value="com.dennis.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dennis.bean" />
-      <option name="MAIN_CLASS_NAME" value="com.dennis.bean.MainConfigDITest" />
-      <option name="METHOD_NAME" value="testXXXAwire" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainConfigOfLifeCycleTest.testInitAndDestroy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_annotation" />
+    <configuration name="PstmmybatisplusApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pstmmybatisplus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dennis.bean.*" />
+          <option name="PATTERN" value="com.dennis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dennis.bean" />
-      <option name="MAIN_CLASS_NAME" value="com.dennis.bean.MainConfigOfLifeCycleTest" />
-      <option name="METHOD_NAME" value="testInitAndDestroy" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dennis.PstmmybatisplusApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -586,26 +224,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringAopEncryptTransferApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-aop-encrypt-transfer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dennis.spring.aop.encrypt.transfer.SpringAopEncryptTransferApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.UpdataClient" />
       <item itemvalue="Spring Boot.PstmmybatisplusApplication" />
-      <item itemvalue="JUnit.MainConfigOfLifeCycleTest.testInitAndDestroy" />
-      <item itemvalue="JUnit.MainConfigDITest.testAutowire" />
-      <item itemvalue="JUnit.MainConfigDITest.testAutowired01" />
-      <item itemvalue="JUnit.MainConfigDITest.testXXXAwire" />
-      <item itemvalue="JUnit.MainConfigAopTest.tesMathCalculator" />
+      <item itemvalue="Spring Boot.SpringAopEncryptTransferApplication" />
+      <item itemvalue="Application.MysqlGenerator" />
+      <item itemvalue="Application.Blue" />
+      <item itemvalue="Application.MysqlGenerator (1)" />
+      <item itemvalue="Spring Boot.PstmmybatisplusApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainConfigAopTest.tesMathCalculator" />
-        <item itemvalue="JUnit.MainConfigDITest.testXXXAwire" />
-        <item itemvalue="JUnit.MainConfigDITest.testAutowired01" />
-        <item itemvalue="JUnit.MainConfigDITest.testAutowire" />
-        <item itemvalue="JUnit.MainConfigOfLifeCycleTest.testInitAndDestroy" />
+        <item itemvalue="Application.MysqlGenerator (1)" />
+        <item itemvalue="Spring Boot.PstmmybatisplusApplication (1)" />
+        <item itemvalue="Application.MysqlGenerator" />
+        <item itemvalue="Application.Blue" />
+        <item itemvalue="Application.UpdataClient" />
       </list>
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,SHOW_NON_PUBLIC,SHOW_FIELDS" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC,SHOW_FIELDS" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -619,6 +265,17 @@
       <updated>1571920323209</updated>
       <workItem from="1571920325256" duration="11102000" />
       <workItem from="1572069925830" duration="68479000" />
+      <workItem from="1573090075998" duration="8460000" />
+      <workItem from="1573459635610" duration="1296000" />
+      <workItem from="1573700174107" duration="3447000" />
+      <workItem from="1573720612188" duration="940000" />
+      <workItem from="1573873846753" duration="2753000" />
+      <workItem from="1574057428113" duration="8439000" />
+      <workItem from="1574145679956" duration="15179000" />
+      <workItem from="1574412141796" duration="1928000" />
+      <workItem from="1574739622055" duration="3144000" />
+      <workItem from="1574751035997" duration="6716000" />
+      <workItem from="1575278853784" duration="22948000" />
     </task>
     <task id="LOCAL-00001" summary="jwt原生token的生成方式">
       <created>1572180600556</created>
@@ -641,129 +298,31 @@
       <option name="project" value="LOCAL" />
       <updated>1572187829533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修正generator文件">
+      <created>1575624264486</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575624264486</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="MainConfigAopTest_tesMathCalculator - 2019.10.31 at 23h 23m 03s.xml">
-      <configuration name="MainConfigAopTest.tesMathCalculator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainConfigAopTest_tesMathCalculator - 2019.10.31 at 23h 24m 55s.xml">
-      <configuration name="MainConfigAopTest.tesMathCalculator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainConfigAopTest_tesMathCalculator - 2019.10.31 at 23h 25m 45s.xml">
-      <configuration name="MainConfigAopTest.tesMathCalculator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainConfigAopTest_tesMathCalculator - 2019.10.31 at 23h 30m 55s.xml">
-      <configuration name="MainConfigAopTest.tesMathCalculator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainConfigAopTest_tesMathCalculator - 2019.10.31 at 23h 38m 00s.xml">
-      <configuration name="MainConfigAopTest.tesMathCalculator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainConfigAopTest_tesMathCalculator - 2019.10.31 at 23h 38m 42s.xml">
-      <configuration name="MainConfigAopTest.tesMathCalculator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainConfigAopTest_tesMathCalculator - 2019.10.31 at 23h 47m 52s.xml">
-      <configuration name="MainConfigAopTest.tesMathCalculator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainConfigAopTest_tesMathCalculator - 2019.10.31 at 23h 48m 44s.xml">
-      <configuration name="MainConfigAopTest.tesMathCalculator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainConfigAopTest_tesMathCalculator - 2019.10.31 at 23h 49m 06s.xml">
-      <configuration name="MainConfigAopTest.tesMathCalculator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainConfigAopTest_tesMathCalculator - 2019.10.31 at 23h 49m 30s.xml">
-      <configuration name="MainConfigAopTest.tesMathCalculator" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79581000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.1504" visible="true" weight="0.24583964" />
-      <window_info id="Structure" order="2" sideWeight="0.8496" side_tool="true" weight="0.22768533" />
-      <window_info id="Designer" order="3" />
-      <window_info id="JRebel" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" sideWeight="0.3824" side_tool="true" weight="0.12934947" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924356" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.2048" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.4672" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.4256" />
-      <window_info anchor="bottom" id="Problems" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="JRebel Executor" order="15" weight="0.2624" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" weight="0.3296" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.21255673" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.1504" visible="true" weight="0.16868381" />
-      <window_info id="Structure" order="2" sideWeight="0.8496" side_tool="true" weight="0.22768533" />
-      <window_info id="Designer" order="3" />
-      <window_info id="JRebel" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" sideWeight="0.3824" side_tool="true" weight="0.12934947" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49924356" visible="true" weight="0.2576" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.2048" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.4832" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.0704" />
-      <window_info anchor="bottom" id="Problems" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="JRebel Executor" order="15" weight="0.2624" />
-      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" weight="0.3296" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.21255673" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ioc容器添加bean的4中方式学习完成" />
@@ -771,553 +330,5 @@
     <MESSAGE value="jjwt版生成token和密钥对的使用" />
     <MESSAGE value="修正generator文件" />
     <option name="LAST_COMMIT_MESSAGE" value="修正generator文件" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/resources/templates/controller.java.btl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jjwt/src/main/java/com/dennis/JwtTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="162" column="59" lean-forward="true" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3121#3122#0" expanded="true" />
-            <element signature="e#3181#3182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/resources/mapper/SsoStudentDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/resources/mapper/SsoEmployeeDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/java/com/dennis/pstmmybatisplus/entity/SsoStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/java/com/dennis/pstmmybatisplus/entity/SsoEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/resources/templates/mapper.java.btl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/resources/templates/mapper.java.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/java/com/dennis/pstmmybatisplus/generator/MysqlGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/java/com/dennis/pstmmybatisplus/mapper/SsoEmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pstmmybatisplus/src/main/java/com/dennis/pstmmybatisplus/entity/SsoStudentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.2.0/mybatis-plus-annotation-3.2.0-sources.jar!/com/baomidou/mybatisplus/annotation/TableLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.2.0/mybatis-plus-annotation-3.2.0-sources.jar!/com/baomidou/mybatisplus/annotation/TableId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.2.0/mybatis-plus-annotation-3.2.0-sources.jar!/com/baomidou/mybatisplus/annotation/TableField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/importBeanDefinitionRegistrar/MyImportBeanDefinitionRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/importselector/MyImportSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/beanFactory/ColorFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfig02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2017#2018#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/InitializingBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/DisposableBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfig02Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="84" column="78" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/http/converter/feed/AbstractWireFeedHttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwt_token/src/main/java/com/dennis/tokentool/JwtTokenTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1030">
-          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="591" column="57" lean-forward="true" selection-start-line="591" selection-start-column="12" selection-end-line="591" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#62#63#0" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfigOfLifeCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigOfLifeCycleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE-sources.jar!/org/springframework/context/support/ApplicationContextAwareProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/controller/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Boss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE-sources.jar!/org/springframework/beans/factory/BeanNameAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop/Java/jdk-11/lib/src.zip!/java.base/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="565" selection-start-line="565" selection-end-line="565" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/bean/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigDITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfigDI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_aop/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.3/aspectjweaver-1.9.3-sources.jar!/org/aspectj/lang/JoinPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/test/java/com/dennis/bean/MainConfigAopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/MathCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/aop/LogAspects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_annotation/src/main/java/com/dennis/config/MainConfigAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>chinasofti-tools (2)</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>spring_annotation</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: junit:junit:4.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
