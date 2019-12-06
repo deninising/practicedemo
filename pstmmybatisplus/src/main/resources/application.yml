@@ -23,3 +23,5 @@ spring:
 logging:
   level:
     com.guotie: debug
+mybatis-plus:
+  mapper-locations: mapper/*.xml

@@ -68,6 +68,7 @@ public class MysqlGenerator {
         PackageConfig pc = new PackageConfig();
         pc.setModuleName(scanner("模块名"));
         pc.setParent("com.dennis");
+        pc.setMapper("dao");
         mpg.setPackageInfo(pc);
 
         // 自定义配置

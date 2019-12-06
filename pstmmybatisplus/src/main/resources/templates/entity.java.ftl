@@ -12,24 +12,21 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 </#if>
-
 /**
- * <p>
- * ${table.comment!}
- * </p>
  *
  * @author ${author}
  * @since ${date}
  */
 <#if entityLombokModel>
 @Data
-    <#if superEntityClass??>
-@EqualsAndHashCode(callSuper = true)
-    <#else>
-@EqualsAndHashCode(callSuper = false)
-    </#if>
-@Accessors(chain = true)
+<#--    <#if superEntityClass??>-->
+<#--@EqualsAndHashCode(callSuper = true)-->
+<#--    <#else>-->
+<#--@EqualsAndHashCode(callSuper = false)-->
+<#--    </#if>-->
+<#--@Accessors(chain = true)-->
 </#if>
+
 <#if table.convert>
 @TableName("${table.name}")
 </#if>
