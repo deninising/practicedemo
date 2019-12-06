@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dennis.demo.dao.SysDataPermDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.dennis.demo.entity.SysDataPermEntity">
+        <id column="data_perm_id" property="dataPermId" />
+        <result column="data_perm_type_dict" property="dataPermTypeDict" />
+        <result column="platform" property="platform" />
+        <result column="table_name" property="tableName" />
+        <result column="column_name" property="columnName" />
+        <result column="column_type_dict" property="columnTypeDict" />
+        <result column="column_value" property="columnValue" />
+        <result column="operator_dict" property="operatorDict" />
+        <result column="data_perm_name" property="dataPermName" />
+    </resultMap>
+
+</mapper>
