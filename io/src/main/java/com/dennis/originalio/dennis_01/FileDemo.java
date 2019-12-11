@@ -2,7 +2,10 @@ package com.dennis.originalio.dennis_01;
 
 import java.io.File;
 import java.io.IOException;
-// 文件的基本操作：增、删、改、递归操作
+
+/**
+ * 文件的基本操作：增、删、改、递归操作
+ */
 public class FileDemo {
     public static void main(String[] args) throws IOException {
 //        File file1 = new File("e:\\demo");

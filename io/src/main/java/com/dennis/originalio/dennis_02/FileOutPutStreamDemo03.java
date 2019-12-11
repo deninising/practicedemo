@@ -3,7 +3,7 @@ package com.dennis.originalio.dennis_02;
 import java.io.File;
 import java.io.FileOutputStream;
 
-/*
+/**
  * 如何实现数据的换行?
  * 		为什么现在没有换行呢?因为你值写了字节数据，并没有写入换行符号。
  * 		如何实现呢?写入换行符号即可呗。

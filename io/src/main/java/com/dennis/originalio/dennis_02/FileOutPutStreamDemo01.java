@@ -3,7 +3,7 @@ package com.dennis.originalio.dennis_02;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-/*
+/**
  * IO流的分类：
  * 		流向：
  * 			输入流 读取数据

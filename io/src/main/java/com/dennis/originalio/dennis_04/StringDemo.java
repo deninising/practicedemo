@@ -2,7 +2,7 @@ package com.dennis.originalio.dennis_04;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
-/*
+/**
  * 计算机是如何识别什么时候该把两个字节转换为一个中文呢?
  * 在计算机中中文的存储分两个字节：(GBK)
  * 		第一个字节肯定是负数。
