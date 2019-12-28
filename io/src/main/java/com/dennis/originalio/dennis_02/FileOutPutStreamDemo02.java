@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/*
+/**
  * 字节输出流操作步骤：
  * A:创建字节输出流对象
  * B:调用write()方法

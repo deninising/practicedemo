@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Arrays;
 
-/*
+/**
  * 字节输入流操作步骤：
  * A:创建字节输入流对象
  * B:调用read()方法读取数据，并把数据显示在控制台

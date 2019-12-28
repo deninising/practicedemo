@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-/*
+/**
  * 复制文本文件。
  *
  * 数据源：从哪里来
