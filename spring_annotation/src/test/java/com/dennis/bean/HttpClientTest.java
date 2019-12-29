@@ -8,7 +8,6 @@ import org.junit.Test;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
-import java.net.http.HttpHeaders;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.HashMap;
@@ -16,7 +15,6 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 public class HttpClientTest {
-
 
     @Test
     public void testHttpClient() throws IOException, InterruptedException, ExecutionException {
@@ -53,10 +51,6 @@ public class HttpClientTest {
         System.out.println("==================================================");
         System.out.println(response.body());
 
-//        String testStr = "{\"Total\":0,\"Data\":null,\"Code\":200}";
-//        JSONObject jsonObject = JSON.parseObject(testStr);
-//        String s = JSON.toJSONString(jsonObject, SerializerFeature.WriteMapNullValue);
-//        System.out.println(s);
     }
 
 
