@@ -1,4 +1,4 @@
-package com.dennis.generator;
+package generator.company.entitymode;
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
@@ -47,10 +47,10 @@ public class MysqlGenerator {
         gc.setBaseResultMap(true); // XML ResultMap
         // gc.setSwagger2(true); 实体属性 Swagger2 注解
         /* 自定义文件命名，注意 %s 会自动填充表实体属性！ */
-         gc.setEntityName("%sEntity");
-         gc.setMapperName("%sDao");
-         gc.setXmlName("%sDao");
-         gc.setServiceName("%sService");
+        gc.setEntityName("%sEntity");
+        gc.setMapperName("%sDao");
+        gc.setXmlName("%sDao");
+        gc.setServiceName("%sService");
         // gc.setServiceImplName("%sServiceDiy");
         // gc.setControllerName("%sAction");
         mpg.setGlobalConfig(gc);
@@ -93,7 +93,7 @@ public class MysqlGenerator {
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输出文件名 ， 如果你 Entity 设置了前后缀、此处注意 xml 的名称会跟着发生变化！！
                 return projectPath + "/pstmmybatisplus/src/main/resources/mapper/"
-                        + tableInfo.getMapperName()  + StringPool.DOT_XML;
+                        + tableInfo.getMapperName() + StringPool.DOT_XML;
             }
         });
         /*

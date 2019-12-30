@@ -1,4 +1,4 @@
-package com.guotie.sso.server.module.controller;
+package com.guotie.message.platform.core.core.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author Liaopeng
- * @since 2019-12-03
+ * @since 2019-12-26
  */
 @RestController
-@RequestMapping("/sso.server.module/sys-role-perm-entity")
-public class SysRolePermController {
+@RequestMapping("/announce-po")
+public class AnnounceController {
 
 }

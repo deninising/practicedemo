@@ -1,8 +1,6 @@
-package com.guotie.sso.server.module.entity;
+package com.guotie.message.common.po;
 
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -14,17 +12,19 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author Liaopeng
- * @since 2019-12-04
+ * @since 2019-12-26
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("sys_dict")
-public class SysDictEntity implements Serializable {
+@TableName("msg_center_data_dict")
+public class DataDictPO implements Serializable {
 
 
-    @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+    /**
+     * 数据库id
+     */
+    private String id;
 
     /**
      * 字典名称
