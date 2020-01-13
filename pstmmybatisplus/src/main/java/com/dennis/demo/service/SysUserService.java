@@ -1,5 +1,6 @@
 package com.dennis.demo.service;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.dennis.demo.entity.SysUserEntity;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -13,4 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface SysUserService extends IService<SysUserEntity> {
 
+    IPage<SysUserEntity> pageList(SysUserEntity userEntity);
 }
