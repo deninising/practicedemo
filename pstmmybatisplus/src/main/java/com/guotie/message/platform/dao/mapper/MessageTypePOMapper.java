@@ -1,6 +1,6 @@
 package com.guotie.message.platform.dao.mapper;
 
-import com.guotie.message.common.po.SubscribePO;
+import com.guotie.message.common.po.MessageTypePO;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author Liaopeng
- * @since 2020-01-17
+ * @since 2020-01-15
  */
-public interface SubscribePOMapper extends BaseMapper<SubscribePO> {
+public interface MessageTypePOMapper extends BaseMapper<MessageTypePO> {
 
 }

@@ -1,6 +1,6 @@
 package com.guotie.message.platform.core.service;
 
-import com.guotie.message.common.po.SubscribePO;
+import com.guotie.message.common.po.MessageTypePO;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author Liaopeng
- * @since 2020-01-17
+ * @since 2020-01-15
  */
-public interface ISubscribeService extends IService<SubscribePO> {
+public interface IMessageTypeService extends IService<MessageTypePO> {
 
 }

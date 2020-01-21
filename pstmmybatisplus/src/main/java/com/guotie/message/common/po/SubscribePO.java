@@ -1,6 +1,7 @@
 package com.guotie.message.common.po;
 
 import com.baomidou.mybatisplus.annotation.TableName;
+import java.time.LocalDateTime;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -12,7 +13,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author Liaopeng
- * @since 2019-12-26
+ * @since 2020-01-17
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -22,9 +23,19 @@ public class SubscribePO implements Serializable {
 
 
     /**
-     * 数据库id
+     * 主键（uuid）
      */
     private String id;
+
+    /**
+     * 消息类型id
+     */
+    private String messageTypeId;
+
+    /**
+     * 通知类型id
+     */
+    private String announceTypeId;
 
     /**
      * 用户名
@@ -32,34 +43,19 @@ public class SubscribePO implements Serializable {
     private String userName;
 
     /**
-     * 产品code
+     * 创建时间
      */
-    private String categoryCode;
+    private LocalDateTime createTime;
 
     /**
-     * 产品实例id
+     * 删除标记 1 已删除  ,  0 可用
      */
-    private Integer systemId;
+    private Boolean delFlag;
 
     /**
-     * 域
+     * 扩展预留字段
      */
-    private Integer domain;
-
-    /**
-     * 消息类型，字典code
-     */
-    private Integer msgTypeDict;
-
-    /**
-     * 删除标记 -1：已删除 0： 可用
-     */
-    private Integer delFlag;
-
-    /**
-     * 备注
-     */
-    private String remark;
+    private String extend;
 
 
 }

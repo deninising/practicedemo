@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author Liaopeng
- * @since 2019-12-26
+ * @since 2020-01-17
  */
 @Service
 public class SubscribeServiceImpl extends ServiceImpl<SubscribePOMapper, SubscribePO> implements ISubscribeService {

@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author Liaopeng
- * @since 2020-01-17
+ * @since 2020-01-15
  */
 @RestController
-@RequestMapping("/subscribe-po")
-public class SubscribeController {
+@RequestMapping("/message-type-po")
+public class MessageTypeController {
 
 }
