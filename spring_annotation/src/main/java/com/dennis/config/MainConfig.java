@@ -21,18 +21,19 @@ import org.springframework.stereotype.Service;
 // FilterType.CUSTOM:自定义组件扫描过滤（MyTypeFilter implements TypeFilter）过滤优先级最低
 @ComponentScan(value = "com.dennis"
 //        ,excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION,classes = {Controller.class, Service.class})}
-        ,includeFilters = {
+        , includeFilters = {
 //        @ComponentScan.Filter(type = FilterType.ANNOTATION,classes = {Controller.class}),
 //        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE,classes = {BookService.class}),
-        @ComponentScan.Filter(type = FilterType.CUSTOM,classes = {MyTypeFilter.class})},
+        @ComponentScan.Filter(type = FilterType.CUSTOM, classes = {MyTypeFilter.class})},
         useDefaultFilters = false
-        )
+)
 public class MainConfig {
 
     // 给容器中注入一个Bean，类型为返回值类型，id默认为方法名作为id,@Bean()中可以给Bean自定义id放弃默认id
-    @Bean(name = "zhangsan")
-    public Person person01(){
-        return new Person().builder().name("张三").age(20).build();
+//    @Bean(name = "zhangsan")
+    @Bean
+    public Person person() {
+        return Person.builder().name("张三").age(20).build();
     }
 
 }

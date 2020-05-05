@@ -16,14 +16,15 @@ public class MainConfigTest {
 
     @Test
     public void testPerson(){
-        Object person = applicationContext.getBean(Person.class);
-        System.out.println(person);
-        String[] beanNamesForType = applicationContext.getBeanNamesForType(Person.class);
-
-        for(String beanTypeName:beanNamesForType){
-            System.out.println(beanTypeName);
-        }
-
+        Object zhangsan = applicationContext.getBean(Person.class);
+        System.out.println(zhangsan);
+//        Object person = applicationContext.getBean(Person.class);
+//        System.out.println(person);
+//        String[] beanNamesForType = applicationContext.getBeanNamesForType(Person.class);
+//
+//        for(String beanTypeName:beanNamesForType){
+//            System.out.println(beanTypeName);
+//        }
     }
 
     @Test

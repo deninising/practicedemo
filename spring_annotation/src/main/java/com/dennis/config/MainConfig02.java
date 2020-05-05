@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Import;
 // 标在配置类上，则需要当前conditionl.match()返回true,该配置类的所有注册bean才生效
 @Conditional(WindowsCondition.class)
 @Configuration
-@Import({Red.class, Blue.class, MyImportSelector.class, MyImportBeanDefinitionRegistrar.class})// id默认的时类的全限定名
+@Import({Red.class, Blue.class, MyImportSelector.class, MyImportBeanDefinitionRegistrar.class})// id默认的是类的全限定名
 public class MainConfig02 {
 
 
@@ -48,7 +48,7 @@ public class MainConfig02 {
      *      c、ImportBeanDefinitionRegistrar:实现该接口，自定义逻辑调用
      *      beanDefinetionRegister.registerBeanDefinition()方法注册bean（可以自定义bean的id名）
      * 4）、FactoryBean实现接口，自定义一个返回指定类型的bean工厂
-     *       注意：  // 通过IOC容器对工厂bean进行获取对象时操作时，调用的时自定义实现的getObject()方法返回的对象
+     *       注意：  // 通过IOC容器对工厂bean进行获取对象时操作时，调用的是自定义实现的getObject()方法返回的对象
      *              // 若想获取factorybean对象实例则在id前面加&符号
      */
 

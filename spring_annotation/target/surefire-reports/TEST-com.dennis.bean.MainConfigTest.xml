@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="com.dennis.bean.MainConfigTest" time="0.16" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.boot.library.path" value="D:\develop\java\jdk11\jdk-11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Code\github\practicedemo\spring_annotation"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Code\github\practicedemo\spring_annotation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\dennis\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\IntelliJ IDEA\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\develop\apache-maven-3.6.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\develop\java\jdk11\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\NetSarang\Xshell 6\;D:\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\develop\java\jdk8\bin;D:\develop\Git\cmd;D:\TortoiseGit\bin;D:\develop\apache-maven-3.6.1\bin;D:\develop\java\jdk8\jre\bin;C:\Users\dennis\AppData\Local\Microsoft\WindowsApps;;C:\Users\dennis\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="D:\develop\apache-maven-3.6.1/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\Code\LocalRepository"/>
+    <property name="idea.version2019.3.3" value="true"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\dennis"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="dennis"/>
+    <property name="java.class.path" value="D:\develop\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.3 -s D:\develop\apache-maven-3.6.1\conf\settings.xml -Dmaven.repo.local=D:\Code\LocalRepository install"/>
+    <property name="java.home" value="D:\develop\java\jdk11\jdk-11"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\develop\apache-maven-3.6.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.dennis.bean.MainConfigTest" name="testComponentScan" time="0.089">
+    <error message="Failed to parse configuration class [com.dennis.config.MainConfig]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name &apos;person&apos; for bean class [com.dennis.generated.Person] conflicts with existing, non-compatible bean definition of same name and class [com.dennis.bean.Person]" type="org.springframework.beans.factory.BeanDefinitionStoreException">org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.dennis.config.MainConfig]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name &apos;person&apos; for bean class [com.dennis.generated.Person] conflicts with existing, non-compatible bean definition of same name and class [com.dennis.bean.Person]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.&lt;init&gt;(AnnotationConfigApplicationContext.java:88)
+	at com.dennis.bean.MainConfigTest.init(MainConfigTest.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name &apos;person&apos; for bean class [com.dennis.generated.Person] conflicts with existing, non-compatible bean definition of same name and class [com.dennis.bean.Person]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:287)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 37 more
+</error>
+    <system-out>��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\HttpClientTest.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.HttpClientTest
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfig01Test.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfig01Test
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfig02Test.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfig02Test
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfigAopTest.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfigAopTest
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfigDITest.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfigDITest
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfigOfLifeCycleTest.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfigOfLifeCycleTest
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfigTest.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfigTest
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\aop\LogAspects.class]
+��ǰɨ�赽���������---&gt;com.dennis.aop.LogAspects
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\aop\MathCalculator.class]
+��ǰɨ�赽���������---&gt;com.dennis.aop.MathCalculator
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Blue$BlueBuilder.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Blue$BlueBuilder
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Blue.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Blue
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Boss.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Boss
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Car.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Car
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Cat.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Cat
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Color$ColorBuilder.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Color$ColorBuilder
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Color.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Color
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Dog.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Dog
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Person$PersonBuilder.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Person$PersonBuilder
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Person.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Person
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Red$RedBuilder.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Red$RedBuilder
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Red.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Red
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Yellow$YellowBuilder.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Yellow$YellowBuilder
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Yellow.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Yellow
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\beanFactory\ColorFactoryBean.class]
+��ǰɨ�赽���������---&gt;com.dennis.beanFactory.ColorFactoryBean
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\condition\LinuxCondition.class]
+��ǰɨ�赽���������---&gt;com.dennis.condition.LinuxCondition
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\condition\WindowsCondition.class]
+��ǰɨ�赽���������---&gt;com.dennis.condition.WindowsCondition
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\config\MainConfig01.class]
+��ǰɨ�赽���������---&gt;com.dennis.config.MainConfig01
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\config\MainConfig02.class]
+��ǰɨ�赽���������---&gt;com.dennis.config.MainConfig02
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\config\MainConfigAop.class]
+��ǰɨ�赽���������---&gt;com.dennis.config.MainConfigAop
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\config\MainConfigDI.class]
+��ǰɨ�赽���������---&gt;com.dennis.config.MainConfigDI
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\config\MainConfigOfLifeCycle.class]
+��ǰɨ�赽���������---&gt;com.dennis.config.MainConfigOfLifeCycle
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\controller\BookController.class]
+��ǰɨ�赽���������---&gt;com.dennis.controller.BookController
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\dao\BookDao.class]
+��ǰɨ�赽���������---&gt;com.dennis.dao.BookDao
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\filter\MyTypeFilter.class]
+��ǰɨ�赽���������---&gt;com.dennis.filter.MyTypeFilter
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$1.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$1
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$DataExceptionStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$DataExceptionStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$DataExceptionStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$DataExceptionStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$DataExceptionTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$DataExceptionTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$DataExceptionTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$DataExceptionTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$1.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$1
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$PersonStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$PersonStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$PersonStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$PersonStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$PersonTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$PersonTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$PersonTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$PersonTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$1.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$1
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncClient$Factory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncClient$Factory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncClient$getPersonByName_call.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncClient$getPersonByName_call
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncClient$savePerson_call.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncClient$savePerson_call
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncClient.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncClient
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncIface.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncIface
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncProcessor$getPersonByName$1.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncProcessor$getPersonByName$1
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncProcessor$getPersonByName.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncProcessor$getPersonByName
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncProcessor$savePerson$1.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncProcessor$savePerson$1
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncProcessor$savePerson.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncProcessor$savePerson
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncProcessor.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncProcessor
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Client$Factory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Client$Factory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Client.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Client
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Iface.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Iface
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Processor$getPersonByName.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Processor$getPersonByName
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Processor$savePerson.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Processor$savePerson
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Processor.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Processor
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args$getPersonByName_argsStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args$getPersonByName_argsStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args$getPersonByName_argsStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args$getPersonByName_argsStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args$getPersonByName_argsTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args$getPersonByName_argsTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args$getPersonByName_argsTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args$getPersonByName_argsTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result$getPersonByName_resultStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result$getPersonByName_resultStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result$getPersonByName_resultStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result$getPersonByName_resultStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result$getPersonByName_resultTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result$getPersonByName_resultTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result$getPersonByName_resultTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result$getPersonByName_resultTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args$savePerson_argsStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args$savePerson_argsStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args$savePerson_argsStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args$savePerson_argsStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args$savePerson_argsTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args$savePerson_argsTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args$savePerson_argsTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args$savePerson_argsTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result$savePerson_resultStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result$savePerson_resultStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result$savePerson_resultStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result$savePerson_resultStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result$savePerson_resultTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result$savePerson_resultTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result$savePerson_resultTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result$savePerson_resultTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\importBeanDefinitionRegistrar\MyImportBeanDefinitionRegistrar.class]
+��ǰɨ�赽���������---&gt;com.dennis.importBeanDefinitionRegistrar.MyImportBeanDefinitionRegistrar
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\importselector\MyImportSelector.class]
+��ǰɨ�赽���������---&gt;com.dennis.importselector.MyImportSelector
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\service\BookService.class]
+��ǰɨ�赽���������---&gt;com.dennis.service.BookService
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\thrift\client\ThriftClient.class]
+��ǰɨ�赽���������---&gt;com.dennis.thrift.client.ThriftClient
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\thrift\impl\PersonServiceImpl.class]
+��ǰɨ�赽���������---&gt;com.dennis.thrift.impl.PersonServiceImpl
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\thrift\server\ThriftServer.class]
+��ǰɨ�赽���������---&gt;com.dennis.thrift.server.ThriftServer
+</system-out>
+  </testcase>
+  <testcase classname="com.dennis.bean.MainConfigTest" name="testPerson" time="0.071">
+    <error message="Failed to parse configuration class [com.dennis.config.MainConfig]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name &apos;person&apos; for bean class [com.dennis.generated.Person] conflicts with existing, non-compatible bean definition of same name and class [com.dennis.bean.Person]" type="org.springframework.beans.factory.BeanDefinitionStoreException">org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.dennis.config.MainConfig]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name &apos;person&apos; for bean class [com.dennis.generated.Person] conflicts with existing, non-compatible bean definition of same name and class [com.dennis.bean.Person]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.&lt;init&gt;(AnnotationConfigApplicationContext.java:88)
+	at com.dennis.bean.MainConfigTest.init(MainConfigTest.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name &apos;person&apos; for bean class [com.dennis.generated.Person] conflicts with existing, non-compatible bean definition of same name and class [com.dennis.bean.Person]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:287)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 37 more
+</error>
+    <system-out>��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\HttpClientTest.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.HttpClientTest
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfig01Test.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfig01Test
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfig02Test.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfig02Test
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfigAopTest.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfigAopTest
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfigDITest.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfigDITest
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfigOfLifeCycleTest.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfigOfLifeCycleTest
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\test-classes\com\dennis\bean\MainConfigTest.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.MainConfigTest
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\aop\LogAspects.class]
+��ǰɨ�赽���������---&gt;com.dennis.aop.LogAspects
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\aop\MathCalculator.class]
+��ǰɨ�赽���������---&gt;com.dennis.aop.MathCalculator
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Blue$BlueBuilder.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Blue$BlueBuilder
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Blue.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Blue
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Boss.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Boss
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Car.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Car
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Cat.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Cat
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Color$ColorBuilder.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Color$ColorBuilder
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Color.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Color
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Dog.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Dog
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Person$PersonBuilder.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Person$PersonBuilder
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Person.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Person
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Red$RedBuilder.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Red$RedBuilder
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Red.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Red
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Yellow$YellowBuilder.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Yellow$YellowBuilder
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\bean\Yellow.class]
+��ǰɨ�赽���������---&gt;com.dennis.bean.Yellow
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\beanFactory\ColorFactoryBean.class]
+��ǰɨ�赽���������---&gt;com.dennis.beanFactory.ColorFactoryBean
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\condition\LinuxCondition.class]
+��ǰɨ�赽���������---&gt;com.dennis.condition.LinuxCondition
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\condition\WindowsCondition.class]
+��ǰɨ�赽���������---&gt;com.dennis.condition.WindowsCondition
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\config\MainConfig01.class]
+��ǰɨ�赽���������---&gt;com.dennis.config.MainConfig01
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\config\MainConfig02.class]
+��ǰɨ�赽���������---&gt;com.dennis.config.MainConfig02
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\config\MainConfigAop.class]
+��ǰɨ�赽���������---&gt;com.dennis.config.MainConfigAop
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\config\MainConfigDI.class]
+��ǰɨ�赽���������---&gt;com.dennis.config.MainConfigDI
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\config\MainConfigOfLifeCycle.class]
+��ǰɨ�赽���������---&gt;com.dennis.config.MainConfigOfLifeCycle
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\controller\BookController.class]
+��ǰɨ�赽���������---&gt;com.dennis.controller.BookController
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\dao\BookDao.class]
+��ǰɨ�赽���������---&gt;com.dennis.dao.BookDao
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\filter\MyTypeFilter.class]
+��ǰɨ�赽���������---&gt;com.dennis.filter.MyTypeFilter
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$1.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$1
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$DataExceptionStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$DataExceptionStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$DataExceptionStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$DataExceptionStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$DataExceptionTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$DataExceptionTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$DataExceptionTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$DataExceptionTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\DataException.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.DataException
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$1.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$1
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$PersonStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$PersonStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$PersonStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$PersonStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$PersonTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$PersonTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$PersonTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$PersonTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\Person.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.Person
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$1.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$1
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncClient$Factory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncClient$Factory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncClient$getPersonByName_call.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncClient$getPersonByName_call
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncClient$savePerson_call.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncClient$savePerson_call
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncClient.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncClient
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncIface.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncIface
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncProcessor$getPersonByName$1.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncProcessor$getPersonByName$1
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncProcessor$getPersonByName.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncProcessor$getPersonByName
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncProcessor$savePerson$1.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncProcessor$savePerson$1
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncProcessor$savePerson.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncProcessor$savePerson
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$AsyncProcessor.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$AsyncProcessor
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Client$Factory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Client$Factory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Client.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Client
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Iface.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Iface
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Processor$getPersonByName.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Processor$getPersonByName
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Processor$savePerson.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Processor$savePerson
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$Processor.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$Processor
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args$getPersonByName_argsStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args$getPersonByName_argsStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args$getPersonByName_argsStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args$getPersonByName_argsStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args$getPersonByName_argsTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args$getPersonByName_argsTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args$getPersonByName_argsTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args$getPersonByName_argsTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_args.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_args
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result$getPersonByName_resultStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result$getPersonByName_resultStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result$getPersonByName_resultStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result$getPersonByName_resultStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result$getPersonByName_resultTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result$getPersonByName_resultTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result$getPersonByName_resultTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result$getPersonByName_resultTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$getPersonByName_result.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$getPersonByName_result
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args$savePerson_argsStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args$savePerson_argsStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args$savePerson_argsStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args$savePerson_argsStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args$savePerson_argsTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args$savePerson_argsTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args$savePerson_argsTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args$savePerson_argsTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_args.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_args
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result$_Fields.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result$_Fields
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result$savePerson_resultStandardScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result$savePerson_resultStandardScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result$savePerson_resultStandardSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result$savePerson_resultStandardSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result$savePerson_resultTupleScheme.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result$savePerson_resultTupleScheme
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result$savePerson_resultTupleSchemeFactory.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result$savePerson_resultTupleSchemeFactory
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService$savePerson_result.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService$savePerson_result
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\generated\PersonService.class]
+��ǰɨ�赽���������---&gt;com.dennis.generated.PersonService
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\importBeanDefinitionRegistrar\MyImportBeanDefinitionRegistrar.class]
+��ǰɨ�赽���������---&gt;com.dennis.importBeanDefinitionRegistrar.MyImportBeanDefinitionRegistrar
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\importselector\MyImportSelector.class]
+��ǰɨ�赽���������---&gt;com.dennis.importselector.MyImportSelector
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\service\BookService.class]
+��ǰɨ�赽���������---&gt;com.dennis.service.BookService
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\thrift\client\ThriftClient.class]
+��ǰɨ�赽���������---&gt;com.dennis.thrift.client.ThriftClient
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\thrift\impl\PersonServiceImpl.class]
+��ǰɨ�赽���������---&gt;com.dennis.thrift.impl.PersonServiceImpl
+��ǰ���.class�ļ��Ĵ�������·��file [D:\Code\github\practicedemo\spring_annotation\target\classes\com\dennis\thrift\server\ThriftServer.class]
+��ǰɨ�赽���������---&gt;com.dennis.thrift.server.ThriftServer
+</system-out>
+  </testcase>
+</testsuite>

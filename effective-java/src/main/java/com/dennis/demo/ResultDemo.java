@@ -11,6 +11,5 @@ public class ResultDemo {
         Student s4 = new Student();
         Student s5 = new Student();
 
-
     }
 }

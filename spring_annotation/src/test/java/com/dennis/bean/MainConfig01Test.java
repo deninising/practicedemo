@@ -10,13 +10,15 @@ public class MainConfig01Test {
     private ApplicationContext applicationContext;
 
     @Before
-    public void initApplicationContext(){
+    public void initApplicationContext() {
         applicationContext = new AnnotationConfigApplicationContext(MainConfig01.class);
 
     }
 
     @Test
-    public void testMainConfig01(){
+    public void testMainConfig01() {
         System.out.println("容器创建完成......");
+//        Person bean = applicationContext.getBean(Person.class);
+//        System.out.println(bean);
     }
 }

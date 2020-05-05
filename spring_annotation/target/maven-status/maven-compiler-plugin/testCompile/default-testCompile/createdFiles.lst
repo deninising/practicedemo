@@ -1,0 +1,7 @@
+com\dennis\bean\MainConfigTest.class
+com\dennis\bean\MainConfigDITest.class
+com\dennis\bean\MainConfigOfLifeCycleTest.class
+com\dennis\bean\MainConfigAopTest.class
+com\dennis\bean\MainConfig02Test.class
+com\dennis\bean\HttpClientTest.class
+com\dennis\bean\MainConfig01Test.class

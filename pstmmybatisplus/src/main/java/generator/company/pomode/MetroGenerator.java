@@ -55,21 +55,21 @@ public class MetroGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/metro_dev?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC");
+        dsc.setUrl("jdbc:mysql://192.168.185.131:3306/egg_chat?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("123");
+        dsc.setPassword("123456");
         mpg.setDataSource(dsc);
 
         // 包配置
         PackageConfig pc = new PackageConfig();
 //        pc.setModuleName(scanner("模块名"));
-        pc.setParent("com.guotie");
-        pc.setController("message.platform.core.core.controller");
-        pc.setService("message.platform.core.service");
-        pc.setServiceImpl("message.platform.core.service.impl");
-        pc.setMapper("message.platform.dao.mapper");
-        pc.setEntity("message.common.po");
+        pc.setParent("com.gt.eggchat");
+        pc.setController("controller");
+        pc.setService("service");
+        pc.setServiceImpl("service.impl");
+        pc.setMapper("mapper");
+        pc.setEntity("pojo");
         mpg.setPackageInfo(pc);
 
         // 自定义配置
@@ -134,7 +134,7 @@ public class MetroGenerator {
 //        strategy.setSuperEntityColumns("id");
         strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
         strategy.setControllerMappingHyphenStyle(true);
-        strategy.setTablePrefix("msg_center_");
+//        strategy.setTablePrefix("msg_center_");
 //        strategy.setTablePrefix(pc.getModuleName() + "_");
 
 
