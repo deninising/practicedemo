@@ -8,4 +8,10 @@ public class MathCalculator {
         System.out.println("============目标方法结束============");
         return x / y;
     }
+
+    public void piv(User user) {
+        System.out.println("============目标方法开始============");
+        System.out.println(user);
+        System.out.println("============目标方法结束============");
+    }
 }
